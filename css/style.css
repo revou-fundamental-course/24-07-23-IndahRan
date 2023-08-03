@@ -1,0 +1,190 @@
+.navbar{
+	height: 100px;
+	background-color: #000;
+}
+
+.navbar img{
+	width: 87px ;
+	height: 88px;
+	margin-top: -9px;
+}
+
+.navbar {
+	box-shadow: 0 4px 8px 0 rgba(10, 10, 135, 0.73), 0 6px 20px 0 rgba(119, 212, 252);}
+
+.menu{
+	padding-left: 80rem;
+}
+
+.menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.menu li {
+	float: left;
+
+}
+
+.menu li a {
+	display: block;
+	color: #4598e0;
+	font-size: 15px;
+	border-color: blue;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+	background-color: #11111168;
+}
+
+.menu .active {
+	background-color: #ffffff;
+}
+
+.main h2{
+	padding-top: 35px;
+	font-family: Merriweather, serif;
+  	font-size: 46px;
+	text-align: center;
+	margin-top: 85px;
+}
+
+.main p{
+	font-family: 'Brush Script MT', cursive;
+  	font-size: 31px;
+	text-align: center;
+	margin: 21px 0px 40px 0px;
+}
+
+.review img{
+	margin: 60px 0px 0px 0px;
+	width: 55rem;
+	height: 43rem;
+}
+
+.intro h5{
+	font-family: Helvetica, sans-serif;
+  	font-size: 25px;
+	font-weight: bold;
+	margin: 39px 0px 0px 42px;
+}
+
+.intro p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.form {
+	padding-right: 20px;
+	margin-top: 61px;
+	border-radius: 10px;
+	background-color: #dae4ed
+}
+
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+	width: 100%;
+	background-color: #1f3a7a;
+	box-shadow: 0px 0px 5px 0px #004bff;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+
+  .comment p{
+	font-style: italic;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .bintang img{
+	border-radius: 50%;
+	width: 50px;
+	height: 42px;
+	margin-left: 6px;
+  }
+
+  .bintang h4{
+	font-family: Helvetica, sans-serif;
+  	font-size: 18px;
+	font-weight: bold;
+	margin: -42px 0px 0px 63px;
+  }
+
+  .bintang p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	margin: 7px 1066px 0px 0px;
+	font-style: italic;
+  }
+
+  .benefit {
+	background-color: #1f3a7a;
+  }
+
+  .list {
+	color: #ffffff;
+  }
+
+  .list h4{
+	text-align: center;
+	padding-top: 45px;
+	font-family: Merriweather, serif;
+  	font-size: 50px;
+	margin-top: 65px;
+  }
+
+  ul.list li {
+	/* list-style-image: url(../images/marker.png); */
+	margin: 0 0px 20px 15px;
+	font-size: 40px;
+	font-family: Garamond, serif;
+}
+
+.pindah{
+	background-image: url(../images/pantai.jpg);
+	height: 27rem;
+	text-align: center;
+	color: #000;
+}
+
+.pindah h2{
+	font-size: 40px;
+	font-family: Merriweather, serif;
+}
+
+.call h2{
+	text-align: center;
+	font-size: 40px;
+	font-family: Merriweather, serif;
+	margin-top: 55px;
+}
+
+.footer {
+	background-color: #193063;
+	text-align: center;
+	color: #72b8f4;
+}
